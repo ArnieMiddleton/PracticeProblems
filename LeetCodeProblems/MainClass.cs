@@ -36,10 +36,20 @@ namespace LeetCodeProblems
       // FindAllDuplicatesInAnArray test
       {
         /*
-        FindAllDuplicatesInAnArray fadiaa = new FindAllDuplicatesInAnArray();
+        FindAllDuplicatesInAnArraySolution fadiaas = new FindAllDuplicatesInAnArraySolution();
         int[] arr = new int[] { 4, 3, 2, 7, 8, 2, 3, 1 };
 
-        Console.WriteLine(fadiaa.PrintList(fadiaa.FindDuplicates(arr)));
+        Console.WriteLine(fadiaa.PrintList(fadiaas.FindDuplicates(arr)));
+        */
+      }
+
+      // LongestSubstringWithoutRepeatingCharacters test
+      {
+        /*
+        LongestSubstringWithoutRepeatingCharactersSolution lswrcs = new LongestSubstringWithoutRepeatingCharactersSolution();
+        string input = "abcabcbb";
+
+        Console.WriteLine(lswrcs.LengthOfLongestSubstring(input));
         */
       }
 
