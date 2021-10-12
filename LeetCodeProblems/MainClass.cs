@@ -116,7 +116,36 @@ namespace LeetCodeProblems
         */
       }
 
+      // LongestPalindromicSubstring test
+      {
+        /*
+        //Example 1:
+        //
+        //Input: s = "babad"
+        //Output: "bab"
+        //Note: "aba" is also a valid answer.
+        //
+        //Example 2:
+        //Input: s = "cbbd"
+        //Output: "bb"
+        //
+        //Example 3:
+        //
+        //Input: s = "a"
+        //Output: "a"
+        //
+        //Example 4:
+        //
+        //Input: s = "ac"
+        //Output: "a"
+        LongestPalindromicSubstringSolution lpss = new LongestPalindromicSubstringSolution();
 
+        Console.WriteLine(lpss.LongestPalindrome("babad"));
+        Console.WriteLine(lpss.LongestPalindrome("cbbd"));
+        Console.WriteLine(lpss.LongestPalindrome("a"));
+        Console.WriteLine(lpss.LongestPalindrome("ac"));
+        */
+      }
 
     }
   }
