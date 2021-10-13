@@ -147,6 +147,20 @@ namespace LeetCodeProblems
         */
       }
 
+      // ReverseInteger test
+      {
+        /*
+        ReverseIntegerSolution ris = new ReverseIntegerSolution();
+
+        Console.WriteLine(ris.Reverse(123)); // 321
+        Console.WriteLine(ris.Reverse(-123)); // -321
+        Console.WriteLine(ris.Reverse(120)); // 21
+        Console.WriteLine(ris.Reverse(0)); // 0
+        */
+      }
+
+
+
     }
   }
 }
