@@ -18,148 +18,139 @@ namespace LeetCodeProblems
 
     static void Main(string[] args)
     {
-      // AddTwoNumbers test
-      {
-        /*
-        AddTwoNumbersSolution atns = new AddTwoNumbersSolution();
-        int num1 = 342;
-        int num2 = 465;
-        ListNode l1 = atns.GetListNodeFromList(atns.DigitsFromInt(num1));
-        ListNode l2 = atns.GetListNodeFromList(atns.DigitsFromInt(num2));
+      #region AddTwoNumbers
+      /*
+      AddTwoNumbersSolution atns = new AddTwoNumbersSolution();
+      int num1 = 342;
+      int num2 = 465;
+      ListNode l1 = atns.GetListNodeFromList(atns.DigitsFromInt(num1));
+      ListNode l2 = atns.GetListNodeFromList(atns.DigitsFromInt(num2));
 
-        ListNode output = atns.AddTwoNumbers(l1, l2);
+      ListNode output = atns.AddTwoNumbers(l1, l2);
 
-        Console.WriteLine(atns.PrintListNode(output));
-        */
-      }
+      Console.WriteLine(atns.PrintListNode(output));
+      */
+      #endregion
 
-      // FindMedianOfTwoSortedArrays test
-      {
-        /*
-        MedianOfTwoSortedArraysSolution motsas = new MedianOfTwoSortedArraysSolution();
-        int[] a1 = new int[] { 1, 3 };
-        int[] a2 = new int[] { 2 };
+      #region FindMedianOfTwoSortedArrays
+      /*
+      MedianOfTwoSortedArraysSolution motsas = new MedianOfTwoSortedArraysSolution();
+      int[] a1 = new int[] { 1, 3 };
+      int[] a2 = new int[] { 2 };
 
 
-        Console.WriteLine(motsas.FindMedianSortedArrays(a1, a2));
-        */
-      }
+      Console.WriteLine(motsas.FindMedianSortedArrays(a1, a2));
+      */
+      #endregion
 
-      // FindAllDuplicatesInAnArray test
-      {
-        /*
-        FindAllDuplicatesInAnArraySolution fadiaas = new FindAllDuplicatesInAnArraySolution();
-        int[] arr = new int[] { 4, 3, 2, 7, 8, 2, 3, 1 };
+      #region FindAllDuplicatesInAnArray
+      /*
+      FindAllDuplicatesInAnArraySolution fadiaas = new FindAllDuplicatesInAnArraySolution();
+      int[] arr = new int[] { 4, 3, 2, 7, 8, 2, 3, 1 };
 
-        Console.WriteLine(fadiaa.PrintList(fadiaas.FindDuplicates(arr)));
-        */
-      }
+      Console.WriteLine(fadiaa.PrintList(fadiaas.FindDuplicates(arr)));
+      */
+      #endregion
 
-      // LongestSubstringWithoutRepeatingCharacters test
-      {
-        /*
-        LongestSubstringWithoutRepeatingCharactersSolution lswrcs = new LongestSubstringWithoutRepeatingCharactersSolution();
-        string input = "abcabcbb";
+      #region LongestSubstringWIthoutRepeatingCharacters
+      /*
+      LongestSubstringWithoutRepeatingCharactersSolution lswrcs = new LongestSubstringWithoutRepeatingCharactersSolution();
+      string input = "abcabcbb";
 
-        Console.WriteLine(lswrcs.LengthOfLongestSubstring(input));
-        */
-      }
+      Console.WriteLine(lswrcs.LengthOfLongestSubstring(input));
+      */
+      #endregion
 
-      // WordSearchII test
-      {
-        /*
-        WordSearchIISolution wsiis = new WordSearchIISolution();
+      // Unfinished
+      #region WordSearchII
+      /*
+      WordSearchIISolution wsiis = new WordSearchIISolution();
 
-        char[][] board = new char[4][];
-        board[0] = new char[] { 'o', 'a', 'a', 'n' };
-        board[1] = new char[] { 'e', 't', 'a', 'e' };
-        board[2] = new char[] { 'i', 'h', 'k', 'r' };
-        board[3] = new char[] { 'i', 'f', 'l', 'v' };
+      char[][] board = new char[4][];
+      board[0] = new char[] { 'o', 'a', 'a', 'n' };
+      board[1] = new char[] { 'e', 't', 'a', 'e' };
+      board[2] = new char[] { 'i', 'h', 'k', 'r' };
+      board[3] = new char[] { 'i', 'f', 'l', 'v' };
 
-        string[] words = new string[] { "oath", "pea", "eat", "rain" };
+      string[] words = new string[] { "oath", "pea", "eat", "rain" };
 
-        PrintArray<string>(wsiis.FindWords(board, words));
-        Console.WriteLine();
+      PrintArray<string>(wsiis.FindWords(board, words));
+      Console.WriteLine();
 
-        char[][] board2 = new char[2][];
-        board2[0] = new char[] { 'a', 'b' };
-        board2[1] = new char[] { 'c', 'd' };
+      char[][] board2 = new char[2][];
+      board2[0] = new char[] { 'a', 'b' };
+      board2[1] = new char[] { 'c', 'd' };
 
-        string[] words2 = new string[] { "abcb" };
+      string[] words2 = new string[] { "abcb" };
 
-        PrintArray<string>(wsiis.FindWords(board2, words2));
-        Console.WriteLine();
+      PrintArray<string>(wsiis.FindWords(board2, words2));
+      Console.WriteLine();
 
-        char[][] board3 = new char[3][];
-        board3[0] = new char[] { 'a', 'b', 'c' };
-        board3[1] = new char[] { 'a', 'e', 'd' };
-        board3[2] = new char[] { 'a', 'f', 'g' };
+      char[][] board3 = new char[3][];
+      board3[0] = new char[] { 'a', 'b', 'c' };
+      board3[1] = new char[] { 'a', 'e', 'd' };
+      board3[2] = new char[] { 'a', 'f', 'g' };
 
-        string[] words3 = new string[] { "eaafgdcba", "eaabcdgfa" };
+      string[] words3 = new string[] { "eaafgdcba", "eaabcdgfa" };
 
-        PrintArray<string>(wsiis.FindWords(board3, words3));
-        Console.WriteLine();
-        */
-      } // Unfinished
+      PrintArray<string>(wsiis.FindWords(board3, words3));
+      Console.WriteLine();
+      */
+      #endregion
 
-      // BitwiseAndOfNumbersRange test
-      {
-        /*
-        BitwiseAndOfNumbersRangeSolution baonrs = new BitwiseAndOfNumbersRangeSolution();
+      #region BitwiseAndOfNumbersRange
+      /*
+      BitwiseAndOfNumbersRangeSolution baonrs = new BitwiseAndOfNumbersRangeSolution();
 
-        Console.WriteLine(baonrs.RangeBitwiseAnd(5, 7));
-        Console.WriteLine(baonrs.RangeBitwiseAnd(0, 0));
-        Console.WriteLine(baonrs.RangeBitwiseAnd(0, 2147483647));
-        Console.WriteLine(baonrs.RangeBitwiseAnd(2, 4));
-        Console.WriteLine(baonrs.RangeBitwiseAnd(1, 1));
-        Console.WriteLine(baonrs.RangeBitwiseAnd(2, 6));
-        */
-      }
+      Console.WriteLine(baonrs.RangeBitwiseAnd(5, 7));
+      Console.WriteLine(baonrs.RangeBitwiseAnd(0, 0));
+      Console.WriteLine(baonrs.RangeBitwiseAnd(0, 2147483647));
+      Console.WriteLine(baonrs.RangeBitwiseAnd(2, 4));
+      Console.WriteLine(baonrs.RangeBitwiseAnd(1, 1));
+      Console.WriteLine(baonrs.RangeBitwiseAnd(2, 6));
+      */
+      #endregion
 
-      // LongestPalindromicSubstring test
-      {
-        /*
-        //Example 1:
-        //
-        //Input: s = "babad"
-        //Output: "bab"
-        //Note: "aba" is also a valid answer.
-        //
-        //Example 2:
-        //Input: s = "cbbd"
-        //Output: "bb"
-        //
-        //Example 3:
-        //
-        //Input: s = "a"
-        //Output: "a"
-        //
-        //Example 4:
-        //
-        //Input: s = "ac"
-        //Output: "a"
-        LongestPalindromicSubstringSolution lpss = new LongestPalindromicSubstringSolution();
+      #region LongestPalindromicSubstring
+      /*
+      //Example 1:
+      //
+      //Input: s = "babad"
+      //Output: "bab"
+      //Note: "aba" is also a valid answer.
+      //
+      //Example 2:
+      //Input: s = "cbbd"
+      //Output: "bb"
+      //
+      //Example 3:
+      //
+      //Input: s = "a"
+      //Output: "a"
+      //
+      //Example 4:
+      //
+      //Input: s = "ac"
+      //Output: "a"
+      LongestPalindromicSubstringSolution lpss = new LongestPalindromicSubstringSolution();
 
-        Console.WriteLine(lpss.LongestPalindrome("babad"));
-        Console.WriteLine(lpss.LongestPalindrome("cbbd"));
-        Console.WriteLine(lpss.LongestPalindrome("a"));
-        Console.WriteLine(lpss.LongestPalindrome("ac"));
-        */
-      }
+      Console.WriteLine(lpss.LongestPalindrome("babad"));
+      Console.WriteLine(lpss.LongestPalindrome("cbbd"));
+      Console.WriteLine(lpss.LongestPalindrome("a"));
+      Console.WriteLine(lpss.LongestPalindrome("ac"));
+      */
+      #endregion
 
-      // ReverseInteger test
-      {
-        /*
-        ReverseIntegerSolution ris = new ReverseIntegerSolution();
+      #region ReverseInteger
+      /*
+      ReverseIntegerSolution ris = new ReverseIntegerSolution();
 
-        Console.WriteLine(ris.Reverse(123)); // 321
-        Console.WriteLine(ris.Reverse(-123)); // -321
-        Console.WriteLine(ris.Reverse(120)); // 21
-        Console.WriteLine(ris.Reverse(0)); // 0
-        */
-      }
-
-
+      Console.WriteLine(ris.Reverse(123)); // 321
+      Console.WriteLine(ris.Reverse(-123)); // -321
+      Console.WriteLine(ris.Reverse(120)); // 21
+      Console.WriteLine(ris.Reverse(0)); // 0
+      */
+      #endregion
 
     }
   }
