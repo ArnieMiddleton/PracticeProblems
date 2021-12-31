@@ -170,6 +170,23 @@ namespace LeetCodeProblems
       */
       #endregion
 
+      #region RomanToInteger
+      /*
+      RomanToIntegerSolution rtts = new RomanToIntegerSolution();
+
+      Console.WriteLine(rtts.RomanToInt("I"));
+      Console.WriteLine(rtts.RomanToInt("V"));
+      Console.WriteLine(rtts.RomanToInt("X"));
+      Console.WriteLine(rtts.RomanToInt("L"));
+      Console.WriteLine(rtts.RomanToInt("C"));
+      Console.WriteLine(rtts.RomanToInt("D"));
+      Console.WriteLine(rtts.RomanToInt("M"));
+
+      Console.WriteLine(rtts.RomanToInt("III"));
+      Console.WriteLine(rtts.RomanToInt("LVIII"));
+      Console.WriteLine(rtts.RomanToInt("MCMXCIV"));
+      */
+      #endregion
     }
   }
 }
