@@ -152,6 +152,24 @@ namespace LeetCodeProblems
       */
       #endregion
 
+      #region IntegerToRoman
+
+      IntegerToRomanSolution itrs = new IntegerToRomanSolution();
+
+      Console.WriteLine(itrs.IntToRoman(1));
+      Console.WriteLine(itrs.IntToRoman(5));
+      Console.WriteLine(itrs.IntToRoman(10));
+      Console.WriteLine(itrs.IntToRoman(50));
+      Console.WriteLine(itrs.IntToRoman(100));
+      Console.WriteLine(itrs.IntToRoman(500));
+      Console.WriteLine(itrs.IntToRoman(1000));
+
+      Console.WriteLine(itrs.IntToRoman(3));
+      Console.WriteLine(itrs.IntToRoman(58));
+      Console.WriteLine(itrs.IntToRoman(1994));
+
+      #endregion
+
     }
   }
 }
