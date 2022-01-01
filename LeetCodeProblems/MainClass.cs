@@ -187,6 +187,16 @@ namespace LeetCodeProblems
       Console.WriteLine(rtts.RomanToInt("MCMXCIV"));
       */
       #endregion
+
+      #region ContainerWithMostWater
+
+      ContainerWithMostWaterSolution cwmws = new ContainerWithMostWaterSolution();
+
+      Console.WriteLine(cwmws.MaxArea(new int[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 }));
+      Console.WriteLine(cwmws.MaxArea(new int[] { 1, 1 }));
+
+      #endregion
+
     }
   }
 }
