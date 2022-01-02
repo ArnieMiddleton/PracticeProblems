@@ -10,7 +10,7 @@ namespace LeetCodeProblems
     {
       int max = 0;
       int startIndex = 0;
-      bool foundRepeat = false;
+      //bool foundRepeat = false;
 
       HashSet<char> chars = new HashSet<char>();
       for (int i = 0; i < s.Length; i++)
@@ -21,7 +21,7 @@ namespace LeetCodeProblems
           chars.Clear();
           i = startIndex;
           startIndex++;
-          foundRepeat = true;
+          //foundRepeat = true;
         }
         else
           chars.Add(s[i]);

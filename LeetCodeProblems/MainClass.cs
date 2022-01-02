@@ -192,8 +192,13 @@ namespace LeetCodeProblems
 
       ContainerWithMostWaterSolution cwmws = new ContainerWithMostWaterSolution();
 
-      Console.WriteLine(cwmws.MaxArea(new int[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 }));
-      Console.WriteLine(cwmws.MaxArea(new int[] { 1, 1 }));
+      Console.WriteLine(cwmws.MaxArea(new int[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 })); // 49
+      Console.WriteLine(cwmws.MaxArea(new int[] { 1, 1 })); // 1
+      Console.WriteLine(cwmws.MaxArea(new int[] { 1, 2, 1 })); // 2
+      Console.WriteLine(cwmws.MaxArea(new int[] { 1, 2, 4, 3 })); // 4
+      Console.WriteLine(cwmws.MaxArea(new int[] { 2, 3, 4, 5, 18, 17, 6 })); // 17
+      Console.WriteLine(cwmws.MaxArea(new int[] { 2, 3, 10, 5, 7, 8, 9 })); // 36
+      Console.WriteLine(cwmws.MaxArea(new int[] { 1, 3, 2, 5, 25, 24, 5 })); // 24
 
       #endregion
 
