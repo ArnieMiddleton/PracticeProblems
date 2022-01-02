@@ -189,7 +189,7 @@ namespace LeetCodeProblems
       #endregion
 
       #region ContainerWithMostWater
-
+      /*
       ContainerWithMostWaterSolution cwmws = new ContainerWithMostWaterSolution();
 
       Console.WriteLine(cwmws.MaxArea(new int[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 })); // 49
@@ -199,9 +199,19 @@ namespace LeetCodeProblems
       Console.WriteLine(cwmws.MaxArea(new int[] { 2, 3, 4, 5, 18, 17, 6 })); // 17
       Console.WriteLine(cwmws.MaxArea(new int[] { 2, 3, 10, 5, 7, 8, 9 })); // 36
       Console.WriteLine(cwmws.MaxArea(new int[] { 1, 3, 2, 5, 25, 24, 5 })); // 24
-
+      */
       #endregion
 
+      #region PalindromeNumber
+      /*
+      PalindromeNumberSolution pns = new PalindromeNumberSolution();
+
+      Console.WriteLine(pns.IsPalindrome(121)); // true
+      Console.WriteLine(pns.IsPalindrome(-121)); // false
+      Console.WriteLine(pns.IsPalindrome(10)); // false
+      Console.WriteLine(pns.IsPalindrome(1234321)); // true
+      */
+      #endregion
     }
   }
 }
